@@ -1,5 +1,6 @@
 Hi. this was my submission for my college summer contest it was about converting the transferring rules to a python code in anyway (see poster.jpg).  
-thankfully i got the first place out of 46 submissions.  
+thankfully i won the first place out of 46 submissions.
+- https://twitter.com/FCITKAU/status/1300801711578189824?s=20  
 
 what i made was a game using PyGame library where player have to move around and reach the top based on his grades (rules)  
 
