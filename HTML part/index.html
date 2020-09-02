@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>FCIT DRIVE</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="height: 100%;background-attachment: fixed;background-repeat: no-repeat;background-position: center center;background-image: url(&quot;assets/img/fcit_bg.jpg&quot;);">
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-database.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBb6ka99iqpRc618gdgAnViMUMESL6eAFc",
+      authDomain: "fcit-524fc.firebaseapp.com",
+      databaseURL: "https://fcit-524fc.firebaseio.com",
+      projectId: "fcit-524fc",
+      storageBucket: "fcit-524fc.appspot.com",
+      messagingSenderId: "741558802708",
+      appId: "1:741558802708:web:665bb9dd6b49913b5bca01",
+      measurementId: "G-123L1GYGEZ"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+  <div class="modal fade" role="dialog" tabindex="-1" id="signin">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Sign In</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend"><span class="text-primary input-group-text"><i class="fa fa-envelope-o"></i></span></div><input class="form-control" type="email" id="email" required="" placeholder="Email">
+                <div class="input-group-append"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend"><span class="text-primary input-group-text"><i class="fa fa-lock"></i></span></div><input class="form-control" type="password" id="pass" required="" placeholder="Password">
+                <div class="input-group-append"></div>
+              </div>
+            </div>
+            <div class="form-group"><button onClick="logIn()" class="btn btn-primary btn-lg text-white" style="width: 100%;" type="button">Log in</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mainDiv" style="background-color: rgba(0,0,0,0.54);width: auto;height: 100%;">
+    <div class="container animated fadeIn delay-1s" style="z-index: 0;padding-top: 1%;">
+      <h1 class="text-center" style="color: rgb(255,255,255);">مرحبًا&nbsp; بك في الصفحة الخاصة بالتحويل</h1><button class="btn btn-primary" id="logInButton" data-toggle="modal" data-target="#signin" type="button" style="width: 100%;">تسجيل
+        الدخول</button>
+      <p class="text-right hide" id="par" style="margin-top: 6%;color: rgb(255,255,255);width: 100%;">جميع الطلاب التاليين محققين الشروط للتحويل. وسوف يتم الفرز بينهم بعد انتهاء فترة التسجيل في حال كان عددهم أكثر من 15</p><button
+        class="btn btn-danger hide" id="stop" type="button" style="width: 100%;" onclick="stop()">إيقاف التسجيل للطلاب</button>
+      <button class="btn btn-success hide" id="start" type="button" style="width: 100%;" onclick="start()">إيتاح التسجيل</button>
+    </div>
+    <div class="table-responsive hide" id="studentsTable" style="color: rgb(255,255,255);background-color: rgba(255,255,255,0.41);margin-top: 1%;margin-bottom: 2%;">
+      <table class="table">
+        <thead class="text-center">
+          <tr class="text-center">
+            <th>#</th>
+            <th>الرقم الجامعي</th>
+            <th>المعدل الموزون</th>
+            <th>CPIT110</th>
+            <th>CPCS202</th>
+            <th>CPCS203</th>
+            <th>MATH 110</th>
+            <th>ELI 104</th>
+            <th>CPIT201</th>
+            <th>CPIT221</th>
+          </tr>
+        </thead>
+        <tbody class="text-center" id="studentsTableBody"></tbody>
+      </table>
+    </div>
+    <script>
+
+      var CurrentUser = {};
+
+      function logIn() {
+        var email = $("#email").val();
+        var password = $("#pass").val();
+
+        firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+          var errorCode = error.code;
+          var errorMessage = error.message;
+          alert(errorMessage);
+        });
+        $("#signin").modal('hide');
+      }
+
+
+      firebase.auth().onAuthStateChanged(function(user) {
+        if (user) {
+          CurrentUser = user;
+          // connect to database
+          // if true hide login and show data
+          // load all students to the table
+          document.getElementById("logInButton").classList.add("hide");
+          document.getElementById("studentsTable").classList.remove("hide");
+          document.getElementById("par").classList.remove("hide");
+
+          return firebase.database().ref('isOpen/').once('value').then(function(snapshot) {
+            if (snapshot.val() == "false") {
+              document.getElementById("start").classList.remove("hide");
+            } else {
+              document.getElementById("stop").classList.remove("hide");
+            }
+            return firebase.database().ref('students/202101/').once('value').then(function(snapshot) {
+              // add all students
+              console.log(snapshot.val());
+              var students = snapshot.val();
+              if (students != null) {
+                // load all of them
+                var ids = Object.keys(students);
+                document.getElementById("studentsTableBody").innerHTML = '';
+                for (i = 0; i < Object.keys(students).length; i++) {
+                  console.log(students[i]);
+                  var html = "<tr id=\"" + ids[i].id + "\"><td>" + (1 + i) + "</td><td>" + ids[i] + "</td><td>" + students[ids[i]].gpa + "</td><td>" + students[ids[i]].cpit110 + "</td><td>" + students[ids[i]].cpcs202 + "</td><td>" +
+                    students[ids[i]].cpcs203 + "</td><td>" + students[ids[i]].math110 + "</td><td>" + students[ids[i]].eli104 + "</td><td>" + students[ids[i]].cpit201 + "</td><td>" + students[ids[i]].cpit221 + "</td></tr>";
+                  $("#studentsTableBody").append(html);
+                }
+
+              } else {
+                console.log("empty");
+                // no students are registerd yet
+              }
+            });
+
+          });
+
+        } else {
+          // User is out.
+          document.getElementById("logInButton").classList.remove("hide");
+        }
+      });
+
+      function stop() {
+        var db = firebase.database();
+        db.ref("/isOpen").set("false");
+        document.getElementById("stop").classList.add("hide");
+        document.getElementById("start").classList.remove("hide");
+      }
+
+      function start() {
+        var db = firebase.database();
+        db.ref("/isOpen").set("true");
+        document.getElementById("stop").classList.remove("hide");
+        document.getElementById("start").classList.add("hide");
+      }
+    </script>
+
+  </div>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

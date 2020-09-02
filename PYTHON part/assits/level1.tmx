@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="39" height="63" tilewidth="64" tileheight="64" infinite="0" nextlayerid="8" nextobjectid="213">
+ <tileset firstgid="1" source="../assits/tiles1.tsx"/>
+ <layer id="3" name="first" width="39" height="63">
+ <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,86,86,86,86,86,86,86,86,86,86,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,86,86,86,86,70,86,86,86,86,86,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,81,86,86,86,86,86,86,86,86,86,86,86,70,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,81,86,70,70,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,81,86,70,86,86,70,86,86,86,86,86,86,70,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,81,86,70,86,86,70,86,86,86,86,86,86,70,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,81,86,70,86,70,70,70,86,398,398,398,86,70,86,86,86,86,86,86,86,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,81,81,81,81,81,86,70,86,70,70,70,86,398,398,398,86,70,70,70,70,70,70,70,86,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,81,0,0,0,81,86,70,86,70,70,70,86,398,398,398,86,70,70,70,70,70,70,70,86,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,81,0,0,0,81,86,70,86,86,70,86,86,86,398,86,86,86,86,86,70,86,86,70,86,86,86,86,86,86,108,0,0,0,0,
+0,0,0,0,0,81,0,0,0,81,86,70,86,70,70,70,70,70,70,70,86,108,81,86,70,86,70,70,70,86,398,398,398,86,108,108,0,0,0,
+0,0,0,0,0,81,0,0,0,81,86,70,86,70,70,70,70,70,70,70,86,108,81,86,70,86,70,70,70,86,398,398,398,86,108,108,0,0,0,
+0,0,0,0,0,81,0,0,0,81,86,70,86,70,70,70,70,70,70,70,86,108,81,86,70,86,70,70,70,86,398,398,398,86,108,108,0,0,0,
+0,0,0,0,81,81,0,0,0,81,86,70,86,86,70,86,86,86,86,86,86,108,81,86,70,86,86,70,86,86,86,398,86,86,108,108,108,108,108,
+0,0,0,0,81,81,0,0,0,81,86,70,86,70,70,70,86,398,398,398,86,108,81,86,70,86,70,70,70,70,70,70,70,86,108,108,108,108,108,
+0,0,0,0,81,81,0,0,0,81,86,70,86,70,70,70,86,398,398,398,86,108,81,86,70,86,70,70,70,70,70,70,70,86,108,108,108,108,108,
+0,0,0,0,81,81,0,0,0,81,86,70,86,70,70,70,86,398,398,398,86,108,81,86,70,86,70,70,70,70,70,70,70,86,108,108,108,108,108,
+0,0,0,0,81,81,0,0,0,81,86,70,86,86,70,86,86,86,398,86,86,108,86,86,70,86,86,86,93,86,70,86,86,86,108,108,108,108,108,
+0,0,0,0,81,81,81,81,81,81,86,70,86,70,70,70,70,70,70,70,86,108,86,70,70,70,86,0,86,70,70,70,86,0,0,0,0,0,0,
+0,0,0,0,81,81,81,81,81,81,86,70,86,70,70,70,70,70,70,70,86,108,86,70,70,70,86,0,86,70,70,70,86,0,0,0,0,0,0,
+0,0,0,0,81,81,81,81,81,81,86,70,86,70,70,70,70,70,70,70,86,108,86,70,70,70,86,0,86,70,70,70,86,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,86,86,70,86,86,86,86,86,70,86,86,86,108,86,86,70,86,86,86,86,86,70,86,86,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,86,70,70,70,86,81,86,70,70,70,86,81,108,86,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,86,70,70,70,86,81,86,70,70,70,86,81,108,86,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,86,70,70,70,86,81,86,70,70,70,86,81,108,86,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,86,86,70,86,86,86,86,86,70,86,86,81,108,86,86,70,86,86,0,86,86,86,86,86,0,216,216,216,216,216,
+0,0,0,0,0,0,0,0,0,86,70,70,70,70,70,70,70,70,70,86,81,0,86,70,70,70,86,0,86,398,398,398,86,0,216,216,216,216,216,
+0,0,0,0,0,0,0,0,0,86,70,70,70,70,70,70,70,70,70,86,81,0,86,70,70,70,86,0,86,398,398,398,86,0,216,216,216,216,216,
+0,0,0,0,0,0,0,0,0,86,70,70,70,70,70,70,70,70,70,86,81,0,86,70,70,70,86,0,86,398,398,398,86,0,216,216,216,216,216,
+0,0,0,0,0,0,0,0,0,86,86,86,86,86,86,86,86,86,70,86,81,0,86,86,70,86,86,86,86,86,398,86,86,86,86,86,86,216,216,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,86,0,0,86,70,70,70,70,70,70,70,70,70,86,398,398,398,86,216,216,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,86,0,0,86,70,70,70,70,70,70,70,70,70,398,398,398,398,86,216,216,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,86,0,0,86,70,70,70,70,70,70,70,70,70,86,398,398,398,86,216,216,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,86,0,0,86,86,70,86,86,86,86,86,86,86,86,86,86,86,86,216,216,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,86,0,0,86,70,70,70,86,0,86,398,398,398,86,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,86,0,0,86,70,70,70,86,0,86,398,398,398,86,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,86,0,0,86,70,70,70,86,0,86,398,398,398,86,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,86,0,0,86,86,70,86,86,86,86,86,398,93,86,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,86,0,0,86,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,86,0,0,86,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,86,0,0,86,70,70,70,70,70,70,70,70,70,86,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,86,70,86,86,0,86,86,70,86,86,86,86,86,86,86,86,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,70,70,86,0,86,70,70,70,86,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,70,70,86,0,86,70,70,70,86,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,70,70,70,86,0,86,70,70,70,86,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,86,70,86,86,86,86,86,70,86,86,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,86,17,17,17,17,17,17,17,17,17,86,0,0,0,0,0,0,0,0,0,0,0,0,
+29,30,30,0,33,30,0,87,0,57,57,57,0,0,0,0,86,17,17,17,17,17,17,17,17,17,86,0,0,0,0,0,0,0,0,0,0,0,0,
+29,0,0,0,28,0,0,0,0,0,55,0,0,0,0,0,86,17,17,17,17,17,17,17,17,17,86,0,0,0,0,0,0,0,0,0,0,0,0,
+29,56,56,0,28,0,0,55,0,0,55,0,0,0,0,0,86,17,17,17,17,17,17,17,17,17,86,0,0,0,0,0,0,0,0,0,0,0,0,
+29,0,0,0,28,0,0,55,0,0,55,0,0,0,0,0,86,17,17,17,17,17,17,17,17,17,86,0,0,0,0,0,0,0,0,0,0,0,0,
+29,0,0,0,60,57,0,55,0,0,55,0,0,0,0,0,86,17,17,17,17,17,17,17,17,17,86,0,0,0,0,0,0,0,0,0,0,0,0,
+86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,17,17,17,17,17,17,17,17,17,86,0,0,0,0,0,0,0,0,0,0,0,0,
+86,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,17,17,17,17,17,17,17,17,17,86,0,0,0,0,0,0,0,0,0,0,0,0,
+86,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,17,17,17,17,17,17,17,17,17,86,0,0,0,0,0,0,0,0,0,0,0,0,
+86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="walls" visible="0">
+  <object id="21" name="wall" x="0" y="3776" width="1088" height="64"/>
+  <object id="22" name="wall" x="0" y="3968" width="1728" height="64"/>
+  <object id="25" name="wall" x="1664" y="3136" width="64" height="832"/>
+  <object id="26" name="wall" x="1024" y="3072" width="64" height="704"/>
+  <object id="27" name="wall" x="1088" y="2304" width="64" height="832"/>
+  <object id="28" name="wall" x="1216" y="2048" width="64" height="1088"/>
+  <object id="29" name="wall" x="1088" y="3328" width="64" height="64"/>
+  <object id="30" name="wall" x="1216" y="3328" width="320" height="64"/>
+  <object id="31" name="wall" x="1280" y="3072" width="64" height="256"/>
+  <object id="32" name="wall" x="1600" y="3072" width="512" height="64"/>
+  <object id="33" name="wall" x="1472" y="3072" width="64" height="64"/>
+  <object id="36" name="wall" x="1600" y="3328" width="64" height="64"/>
+  <object id="37" name="wall" x="0" y="3840" width="64" height="128"/>
+  <object id="38" name="wall" x="1472" y="2816" width="64" height="64"/>
+  <object id="39" name="wall" x="1600" y="2816" width="320" height="64"/>
+  <object id="40" name="wall" x="2048" y="2304" width="320" height="64"/>
+  <object id="41" name="wall" x="1984" y="2816" width="64" height="64"/>
+  <object id="42" name="wall" x="1984" y="2560" width="64" height="64"/>
+  <object id="43" name="wall" x="1856" y="2560" width="128" height="64"/>
+  <object id="44" name="wall" x="1856" y="2304" width="64" height="64"/>
+  <object id="46" name="wall" x="1728" y="2560" width="128" height="256"/>
+  <object id="48" name="wall" x="1408" y="2112" width="64" height="1216"/>
+  <object id="49" name="wall" x="1408" y="1600" width="64" height="512"/>
+  <object id="50" name="wall" x="1856" y="2048" width="192" height="64"/>
+  <object id="52" name="wall" x="960" y="1792" width="64" height="320"/>
+  <object id="53" name="wall" x="576" y="2304" width="512" height="64"/>
+  <object id="54" name="wall" x="1664" y="2560" width="64" height="256"/>
+  <object id="56" name="wall" x="2048" y="2624" width="64" height="320"/>
+  <object id="57" name="wall" x="2048" y="2560" width="320" height="64"/>
+  <object id="61" name="wall" x="2048" y="2048" width="64" height="256"/>
+  <object id="63" name="wall" x="1152" y="1792" width="128" height="64"/>
+  <object id="64" name="wall" x="576" y="1792" width="64" height="512"/>
+  <object id="65" name="wall" x="1600" y="1792" width="256" height="64"/>
+  <object id="66" name="wall" x="1344" y="1600" width="64" height="192"/>
+  <object id="68" name="wall" x="768" y="704" width="64" height="1152"/>
+  <object id="69" name="wall" x="960" y="1536" width="192" height="64"/>
+  <object id="70" name="wall" x="640" y="576" width="64" height="1280"/>
+  <object id="71" name="wall" x="960" y="704" width="320" height="128"/>
+  <object id="72" name="wall" x="1600" y="1536" width="256" height="64"/>
+  <object id="73" name="wall" x="1984" y="1536" width="192" height="64"/>
+  <object id="74" name="wall" x="1920" y="1024" width="256" height="64"/>
+  <object id="75" name="wall" x="2112" y="1088" width="64" height="448"/>
+  <object id="76" name="wall" x="2048" y="1280" width="64" height="64"/>
+  <object id="77" name="wall" x="1856" y="1280" width="128" height="64"/>
+  <object id="78" name="wall" x="1792" y="1280" width="64" height="64"/>
+  <object id="80" name="wall" x="1344" y="1024" width="192" height="64"/>
+  <object id="81" name="wall" x="1408" y="1536" width="64" height="64"/>
+  <object id="82" name="wall" x="1792" y="1024" width="64" height="64"/>
+  <object id="83" name="wall" x="1600" y="1280" width="128" height="64"/>
+  <object id="84" name="wall" x="1600" y="1024" width="128" height="64"/>
+  <object id="85" name="wall" x="1600" y="1088" width="64" height="192"/>
+  <object id="86" name="wall" x="1856" y="1024" width="64" height="256"/>
+  <object id="87" name="wall" x="1408" y="832" width="384" height="64"/>
+  <object id="88" name="wall" x="1792" y="832" width="64" height="256"/>
+  <object id="89" name="wall" x="704" y="576" width="576" height="64"/>
+  <object id="90" name="wall" x="1280" y="704" width="64" height="1152"/>
+  <object id="91" name="wall" x="1408" y="512" width="64" height="384"/>
+  <object id="92" name="wall" x="1024" y="0" width="704" height="64"/>
+  <object id="93" name="wall" x="1024" y="64" width="64" height="512"/>
+  <object id="94" name="wall" x="1664" y="64" width="64" height="512"/>
+  <object id="95" name="wall" x="1472" y="512" width="192" height="64"/>
+  <object id="96" name="wall" x="1088" y="512" width="192" height="64"/>
+  <object id="130" name="deadZone_gpa" x="1856" y="2624" width="192" height="192"/>
+  <object id="132" name="deadZone" x="1920" y="1088" width="192" height="192"/>
+  <object id="133" name="passed" x="1088" y="64" width="576" height="448"/>
+  <object id="144" name="wall" x="2048" y="2944" width="64" height="128"/>
+  <object id="156" name="deadZone" x="2112" y="2368" width="192" height="192"/>
+  <object id="157" name="wall" x="1984" y="2304" width="64" height="64"/>
+  <object id="158" name="wall" x="1600" y="2304" width="192" height="64"/>
+  <object id="159" name="wall" x="1472" y="2304" width="64" height="64"/>
+  <object id="160" name="wall" x="1600" y="2048" width="64" height="64"/>
+  <object id="161" name="wall" x="1600" y="2560" width="64" height="64"/>
+  <object id="162" name="wall" x="1472" y="2560" width="64" height="64"/>
+  <object id="163" name="deadZone" x="1856" y="2112" width="192" height="192"/>
+  <object id="179" name="deadZone_gpa" x="1088" y="1344" width="192" height="192"/>
+  <object id="180" name="wall" x="768" y="2048" width="192" height="64"/>
+  <object id="181" name="wall" x="640" y="2048" width="64" height="64"/>
+  <object id="182" name="wall" x="1152" y="2048" width="64" height="64"/>
+  <object id="183" name="wall" x="1024" y="2048" width="64" height="64"/>
+  <object id="184" name="wall" x="1024" y="1792" width="64" height="64"/>
+  <object id="185" name="wall" x="896" y="1792" width="64" height="64"/>
+  <object id="186" name="wall" x="832" y="1792" width="64" height="256"/>
+  <object id="187" name="wall" x="832" y="1536" width="64" height="64"/>
+  <object id="188" name="wall" x="832" y="1280" width="64" height="64"/>
+  <object id="189" name="wall" x="832" y="1024" width="64" height="64"/>
+  <object id="190" name="wall" x="832" y="704" width="64" height="128"/>
+  <object id="191" name="wall" x="1024" y="832" width="64" height="192"/>
+  <object id="192" name="wall" x="960" y="1024" width="192" height="64"/>
+  <object id="193" name="wall" x="1216" y="1024" width="64" height="64"/>
+  <object id="194" name="wall" x="1472" y="1088" width="64" height="512"/>
+  <object id="195" name="wall" x="1600" y="1344" width="64" height="192"/>
+  <object id="196" name="wall" x="2048" y="1600" width="64" height="448"/>
+  <object id="197" name="wall" x="1984" y="1792" width="64" height="64"/>
+  <object id="198" name="wall" x="1856" y="1536" width="64" height="64"/>
+  <object id="199" name="wall" x="1664" y="1600" width="192" height="192"/>
+  <object id="200" name="wall" x="1856" y="1792" width="64" height="64"/>
+  <object id="201" name="wall" x="1472" y="1792" width="64" height="64"/>
+  <object id="202" name="wall" x="1472" y="2048" width="64" height="64"/>
+  <object id="203" name="wall" x="1664" y="2048" width="64" height="256"/>
+  <object id="204" name="wall" x="2304" y="2368" width="64" height="192"/>
+  <object id="205" name="wall" x="2048" y="2368" width="64" height="64"/>
+  <object id="206" name="wall" x="2048" y="2496" width="64" height="64"/>
+  <object id="207" name="wall" x="1280" y="512" width="64" height="128"/>
+  <object id="208" name="deadZone" x="1088" y="832" width="192" height="192"/>
+  <object id="209" name="wall" x="1792" y="2048" width="64" height="320"/>
+  <object id="210" name="wall" x="960" y="1280" width="320" height="64"/>
+  <object id="211" name="wall" x="1216" y="1536" width="64" height="64"/>
+  <object id="212" name="wall" x="1024" y="1344" width="64" height="192"/>
+ </objectgroup>
+ <objectgroup id="7" name="text">
+  <object id="103" name="txt" x="1088" y="3136" width="192" height="64" text="CPIT110&gt;80">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">CPIT110&gt;80</text>
+  </object>
+  <object id="112" name="txt" x="1472" y="2688" width="192" height="64" text="GPA &gt; 3.75">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">GPA &gt; 3.75</text>
+  </object>
+  <object id="113" name="txt" x="1856" y="2688" width="192" height="64" text="GPA &lt; 3.75">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">GPA &lt; 3.75</text>
+  </object>
+  <object id="115" name="txt" x="1856" y="2112" width="192" height="64" text="CPCS202&lt;75">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">CPCS202&lt;75</text>
+  </object>
+  <object id="117" name="txt" x="1856" y="1664" width="192" height="64" text="ELI4&lt;80">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">ELI4&lt;80</text>
+  </object>
+  <object id="118" name="txt" x="1472" y="1664" width="192" height="64" text="ELI4&gt;80">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">ELI4&gt;80</text>
+  </object>
+  <object id="119" name="txt" x="1088" y="3200" width="192" height="64" text="AND">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">AND</text>
+  </object>
+  <object id="120" name="txt" x="1088" y="3264" width="192" height="64" text="MATH110&gt;75">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">MATH110&gt;75</text>
+  </object>
+  <object id="121" name="txt" x="1472" y="3136" width="192" height="64" text="CPIT110&lt;80">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">CPIT110&lt;80</text>
+  </object>
+  <object id="122" name="txt" x="1472" y="3200" width="192" height="64" text="OR">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">OR</text>
+  </object>
+  <object id="123" name="txt" x="1472" y="3264" width="192" height="64" text="MATH110&lt;75">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">MATH110&lt;75</text>
+  </object>
+  <object id="126" name="txt" x="1920" y="1152" width="192" height="64" text="None">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">None</text>
+  </object>
+  <object id="127" name="txt" x="1088" y="64" width="576" height="448" text="FCIT">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">GG</text>
+  </object>
+  <object id="146" name="txt" x="1856" y="2176" width="192" height="64" text="AND">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">AND</text>
+  </object>
+  <object id="148" name="txt" x="1856" y="2240" width="192" height="64" text="CPCS203&lt;75">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">CPCS203&lt;75</text>
+  </object>
+  <object id="150" name="txt" x="2112" y="2368" width="192" height="64" text="NO CPCS202">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">NO CPCS202</text>
+  </object>
+  <object id="151" name="txt" x="2112" y="2432" width="192" height="64" text="AND">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">AND</text>
+  </object>
+  <object id="152" name="txt" x="2112" y="2496" width="192" height="64" text="NO CPCS203">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">NO CPCS203</text>
+  </object>
+  <object id="153" name="txt" x="1472" y="2112" width="192" height="64" text="CPCS202&gt;75">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">CPCS202&gt;75</text>
+  </object>
+  <object id="154" name="txt" x="1472" y="2176" width="192" height="64" text="OR">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">OR</text>
+  </object>
+  <object id="155" name="txt" x="1472" y="2240" width="192" height="64" text="CPCS203&gt;75">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">CPCS203&gt;75</text>
+  </object>
+  <object id="167" name="txt" x="1664" y="1088" width="192" height="64" text="CPIT201&gt;80">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">CPIT201&gt;80</text>
+  </object>
+  <object id="168" name="txt" x="1664" y="1152" width="192" height="64" text="OR">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">OR</text>
+  </object>
+  <object id="169" name="txt" x="1664" y="1216" width="192" height="64" text="CPIT221&gt;80">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">CPIT221&gt;80</text>
+  </object>
+  <object id="170" name="txt" x="640" y="1920" width="192" height="64" text="ELI4&gt;80">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">ELI4&gt;80</text>
+  </object>
+  <object id="171" name="txt" x="1024" y="1920" width="192" height="64" text="ELI4&lt;80">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">ELI4&lt;80</text>
+  </object>
+  <object id="172" name="txt" x="832" y="1408" width="192" height="64" text="GPA &gt; 3.75">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">GPA &gt; 3.75</text>
+  </object>
+  <object id="173" name="txt" x="1088" y="1408" width="192" height="64" text="GPA &lt; 3.75">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">GPA &lt; 3.75</text>
+  </object>
+  <object id="174" name="txt" x="832" y="832" width="192" height="64" text="CPIT201&gt;80">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">CPIT201&gt;80</text>
+  </object>
+  <object id="175" name="txt" x="832" y="896" width="192" height="64" text="OR">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">OR</text>
+  </object>
+  <object id="176" name="txt" x="832" y="960" width="192" height="64" text="CPIT221&gt;80">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">CPIT221&gt;80</text>
+  </object>
+  <object id="177" name="txt" x="1088" y="896" width="192" height="64" text="None">
+   <text fontfamily="MS Shell Dlg 2" pixelsize="32" wrap="1" halign="center" valign="center">None</text>
+  </object>
+ </objectgroup>
+</map>
